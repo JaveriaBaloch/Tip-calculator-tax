@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <main class="container">
+        <h1>Quick Tip</h1>
+        <section>
+            <div class="main">
+            <div class="input_div">
+                <label for="Bill">Bill</label>
+                <input type="number" name="Bill" id="Bill" placeholder="Your Bill">
+            </div>
+            <div class="space_between">
+                <span>Select Tip</span>
+                <span class="Tip_percentage"></span>
+            </div>
+            <div class="range">
+                <input type="range" value="0" aria-valuemax="100" aria-valuemin="0" class="Tiprange">
+            </div>
+            <div class="space_between">
+                <span>Sales Tax</span>
+                <span class="saleTax_percentage"></span>
+            </div>
+            <div class="range">
+                <input type="range" value="0" aria-valuemax="100" aria-valuemin="0" class="Taxrange">
+            </div>
+            <div class="space_between">
+                <span>Tip</span>
+                <span class="Tip_amount">0</span>
+            </div>
+            <hr>
+            <div class="space_between">
+                <span>Total</span>
+                <span class="Total">0</span>
+            </div>
+</div>
+
+        </section>
+        <section>
+            <div class="main">
+            <div class="space_between">
+                <span>Split</span>
+                <span class="Split_percentage"></span>
+            </div>
+            <div class="range">
+                <input type="range" value="1" min="1" max="10" class="Personrange">
+            </div>
+            <div class="space_between range k">
+                <span>Bill Each</span>
+                <span class="BillEach">0</span>
+            </div>
+            <div class="space_between range">
+                <span>Tip Each</span>
+                <span class="TipEach">0</span>
+            </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/js.js"></script>
+</body>
+</html>
